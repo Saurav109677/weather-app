@@ -23,6 +23,8 @@ app.use(express.static(publicDirPath))      //for static pages
 //converting to dynamic page using npm hbs which seek the view folder int the dirpath
 // hbs- handlebars , and plugin to express server used to create dynamic pages
 
+app.use(cors())
+
 app.get('',(req,res) => {
     //res.send('<h1>Hello Express!</h1>')\
     res.render('index',{
