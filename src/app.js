@@ -1,6 +1,7 @@
 const express =require('express')
 const path=require('path')
 const hbs=require('hbs')
+var cors = require('cors')
 const request=require('postman-request')
 const geoCode=require('./utils/geoCode')
 const forecast=require('./utils/forecast')
