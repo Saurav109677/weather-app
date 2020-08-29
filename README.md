@@ -1,5 +1,7 @@
 # weather-api
 
+Check the app working : https://weather-node-api.herokuapp.com
+
 Api which accepts the location and returns the weather temperature in JSON form.
 
 example: 
