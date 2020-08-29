@@ -2,8 +2,10 @@
 
 Check the app working : https://weather-node-api.herokuapp.com
 
-Api which accepts the location and returns the weather temperature in JSON form.
+# Screenshots
+<img src="https://github.com/Saurav109677/weather-app/blob/master/Screenshots/home.png" width=700 height=400 >
 
+Api which accepts the location and returns the weather temperature in JSON form.
 example: 
 https://weather-node-api.herokuapp.com/weather?address=boston
 
