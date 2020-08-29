@@ -13,7 +13,7 @@ const port=process.env.PORT || 9000
 // const viewsPath=path.join(__dirname,'../templates/views')
 // const partialsPath=path.join(__dirname,'../templates/partials')
 app.use(cors())
-app.use(express.static('frontend'))
+app.use(express.static('src/frontend'))
 
 // Setup handlebars engine and views location
 
