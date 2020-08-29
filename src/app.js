@@ -12,6 +12,7 @@ const port=process.env.PORT || 9000
 // const publicDirPath=path.join(__dirname,'../public')
 // const viewsPath=path.join(__dirname,'../templates/views')
 // const partialsPath=path.join(__dirname,'../templates/partials')
+app.use(cors())
 app.use(express.static('frontend'))
 
 // Setup handlebars engine and views location
@@ -24,7 +25,7 @@ app.use(express.static('frontend'))
 //converting to dynamic page using npm hbs which seek the view folder int the dirpath
 // hbs- handlebars , and plugin to express server used to create dynamic pages
 
-app.use(cors())
+
 
 // app.get('',(req,res) => {
 //     //res.send('<h1>Hello Express!</h1>')\
