@@ -15,12 +15,11 @@ const partialsPath=path.join(__dirname,'../templates/partials')
 app.use(express.static('frontend'))
 
 // Setup handlebars engine and views location
-app.set('views',viewsPath)
-app.set('view engine','hbs')
+
 hbs.registerPartials(partialsPath)   //partial meaans the common tags .. like header or footer
 
 //Setup static directory to serve
-app.use(express.static(publicDirPath))      //for static pages
+// app.use(express.static(publicDirPath))      //for static pages
 
 //converting to dynamic page using npm hbs which seek the view folder int the dirpath
 // hbs- handlebars , and plugin to express server used to create dynamic pages
